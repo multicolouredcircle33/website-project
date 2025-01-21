@@ -1,0 +1,519 @@
+/*MOBILE VIEW*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.home-page {
+  background: url("/assets/images/three-smiling.avif") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 1em;
+}
+
+.nav-item {
+  font-family: "poppins";
+  font-size: 12px;
+  color: white;
+  font-weight: 600;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5em;
+  gap: 1em;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.header-logo {
+  font-size: 24px;
+  font-family: "poppins";
+  font-weight: 700;
+}
+
+.homepage-intro {
+  margin-top: 2em;
+  font-size: 20px;
+  font-family: "poppins", sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.home-page-button {
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  margin-top: 2em;
+  background-color: transparent;
+  font-weight: 600;
+  color: coral;
+  font-family: "poppins";
+  border: 2px solid coral;
+}
+
+.more-intro {
+  margin: 3em 1em;
+}
+
+.intro-container-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: burlywood;
+  padding: 1em;
+}
+
+.intro-container-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: chocolate;
+  padding: 1em;
+  margin-top: 1em;
+}
+
+.intro-container-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: coral;
+  padding: 1em;
+  margin-top: 1em;
+}
+
+.more-intro-text {
+  font-size: 18px;
+  text-align: center;
+  font-family: "poppins", sans-serif;
+}
+
+.more-intro-icon {
+  font-size: 25px;
+}
+
+.phil-text,
+.expertise-text,
+.offer-text {
+  overflow: hidden;
+}
+
+.about-section {
+  margin: 0 1em;
+}
+
+.about-img {
+  width: 100%;
+  height: 250px;
+  border: brown 2px solid;
+  border-radius: 15px;
+  margin-bottom: 2em;
+}
+
+.story-text {
+  color: chocolate;
+  font-family: "poppins", sans-serif;
+}
+
+#products {
+  margin: 3em 1em;
+}
+
+.products-header {
+  font-family: "poppins", sans-serif;
+  font-size: 25px;
+  color: chocolate;
+  overflow: hidden;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.products-display {
+  margin-top: 1.5em;
+  text-align: center;
+}
+
+.product-img {
+  width: 100%;
+  height: 300px;
+}
+
+.product-name {
+  color: chocolate;
+  font-family: "poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.product-price {
+  color: green;
+}
+
+#services {
+  margin: 0 1em;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5em;
+}
+
+.service-display-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5em;
+}
+
+.service-display {
+  width: 100%;
+  padding: 1em;
+  background-color: lightsalmon;
+  color: brown;
+}
+
+.service-display-header {
+  overflow: hidden;
+  color: brown;
+}
+
+.service-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.book-button {
+  margin: 0 auto;
+  width: 10em;
+  height: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: brown;
+  font-family: "poppins";
+  border: 2px solid brown;
+  border-radius: 17px;
+  font-size: 17px;
+}
+
+#contact,
+#about,
+#highlights,
+#gallery {
+  margin: 2em 1em;
+}
+
+.contact-header {
+  color: saddlebrown;
+  font-size: 20px;
+  font-family: "poppins", sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.page-footer {
+  background-color: saddlebrown;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.footer-icon {
+  color: white;
+}
+
+.footer-company-name {
+  color: coral;
+  font-family: "poppins";
+  font-weight: 700;
+}
+
+.footer-c-icon {
+  height: 15px;
+  width: 15px;
+}
+
+.footer-text-1 {
+  font-size: 20px;
+}
+
+.footer-text-2 {
+  font-size: 12px;
+}
+
+.story-header {
+  color: chocolate;
+}
+
+.contact-button {
+  color: white;
+  background-color: chocolate;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 5px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 3em;
+}
+
+.fa-angle-right {
+  margin-left: 0.5em;
+}
+
+.info-head {
+  color: saddlebrown;
+  font-family: "Pacifico", cursive;
+  font-size: 14px;
+  letter-spacing: 3px;
+}
+
+.info-title {
+  font-size: 10px;
+}
+
+.service-display-header,
+.service-item {
+  font-family: "poppins";
+}
+
+.products-link {
+  text-decoration: none;
+}
+
+.form {
+  margin-top: 1.5em;
+}
+
+.dropdown-item {
+  font-family: "Playwrite NG Modern", cursive;
+  font-weight: 400;
+}
+
+.buy-box {
+  border: 1px solid chocolate;
+  padding: 5px;
+  color: chocolate;
+  font-family: "poppins";
+}
+
+.msg {
+  font-family: "poppins";
+  color: chocolate;
+  font-size: 20px;
+}
+
+#cart {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.cart-header {
+  overflow: hidden;
+}
+
+.remove-item {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.remove-item:hover {
+  background-color: #d32f2f;
+}
+
+/*TABLET VIEW*/
+@media screen and (min-width: 768px) {
+
+  .home-page {
+    height: 400px;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .homepage-intro {
+    margin-top: 5em;
+  }
+
+  .home-page-button {
+    font-size: 18px;
+    font-family: "poppins", sans-serif;
+  }
+
+  .more-intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+  }
+
+  .intro-container-3,
+  .intro-container-2 {
+    margin-top: 0;
+  }
+
+  .about-section {
+    margin: 0 4em;
+  }
+
+  .story-header {
+    overflow: hidden;
+  }
+
+  .about-img {
+    height: 360px;
+  }
+
+  .products-display-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+  }
+}
+
+/*DESKTOP VIEW*/
+@media screen and (min-width: 1024px) {
+  .home-page {
+    background: url("/assets/images/homepage-img.jpeg") no-repeat;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .more-intro {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .about-img {
+    height: 400px;
+  }
+
+  .story-text {
+    font-size: 20px;
+    font-family: "poppins", sans-serif;
+  }
+
+  .about-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5em;
+  }
+
+  .contact-button:hover {
+    background-color: saddlebrown;
+    transition: all 0.5s ease-out;
+  }
+
+  .form-button:hover {
+    background-color: chocolate;
+  }
+
+  .menu-icon:hover,
+  .footer-company-name:hover {
+    cursor: pointer;
+  }
+
+  .footer-icon:hover {
+    color: coral;
+    cursor: pointer;
+  }
+
+  .products-display-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .service-display-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  #contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2em 5em;
+  }
+
+  .info-head {
+    color: saddlebrown;
+    font-family: "Pacifico", cursive;
+    font-size: 18px;
+    letter-spacing: 3px;
+  }
+  
+  .info-title {
+    font-size: 13px;
+  }
+
+  .home-page-button:hover {
+    border-color: white;
+    color: white;
+    transition: all 0.5s ease-out;
+  }
+
+  .form {
+    margin-top: 0;
+  }
+
+  .buy-box:hover {
+    cursor: pointer;
+    color: green;
+    border: 1px solid green;
+    transition: all 0.5s ease-out;
+  }
+
+  .book-button:hover {
+    cursor: pointer;
+    border: 2px solid coral;
+    color: coral;
+    transition: all 0.5s ease-out;
+  }
+
+  .nav-item {
+    font-size: 15px;
+  }
+
+  .nav-item:hover {
+    color: coral;
+    font-size: 16px;
+    transition: all 0.5s ease-out;
+  }
+
+}

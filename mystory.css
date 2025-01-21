@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+  font-family: "poppins";
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 1rem 0;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #4CAF50;
+  font-weight: bold;
+  font-family: "poppins";
+}
+
+section {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  font-family: "poppins";
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+  margin-top: 2rem;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+
+.timeline {
+  padding: 0;
+  list-style-type: none;
+}
+
+.timeline li {
+  margin: 1rem 0;
+  padding-left: 20px;
+  position: relative;
+}
+
+.timeline li::before {
+  content: '\2022';
+ position: absolute;
+  left: 0;
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+.poppins {
+  font-family: "poppins";
+}
+
+.gallery-img {
+  width: 100%;
+  height: 15em;
+}
+
+.gallery-img2 {
+  width: 100%;
+  height: 15em;
+  margin-top: 1em;
+}
+
+.no-overflow {
+  overflow: hidden;
+}
+
+#contact,
+#about,
+#highlights,
+#gallery {
+  margin: 2em 1em;
+}
+
+@media screen and (min-width: 768px) {
+  #about {
+
+  }
+
+  .myimg {
+    width: 50%;
+    height: 10em;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .me {
+    display: flex;
+    gap: 1em;
+    justify-content: space-between;
+    margin-top: em;
+  }
+
+  .gallery-imgs {
+    display: flex;
+    justify-content: stretch;
+    gap: 1em;
+  }
+
+  .gallery-img{
+    width: 200px;
+  }
+
+  .gallery-img2 {
+    margin-top: 0;
+  }
+  
+}
+
+
+@media screen and (min-width: 768px) {
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header,
+  footer {
+    align-self: stretch
+  }
+  .body-container {
+    margin: ;
+  }
+}
